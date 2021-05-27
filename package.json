@@ -1,0 +1,27 @@
+{
+  "name": "mernapp",
+  "version": "1.0.0",
+  "description": "MERN app from scratch",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crystal-csete/MERN-app.git"
+  },
+  "author": "Crystal Csete",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crystal-csete/MERN-app/issues"
+  },
+  "homepage": "https://github.com/crystal-csete/MERN-app#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "concurrently": "^6.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.11",
+    "morgan": "^1.10.0"
+  }
+}
